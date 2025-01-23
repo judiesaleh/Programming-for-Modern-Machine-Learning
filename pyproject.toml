@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "programming-for-modern-machine-learning"
+version = "0.1.0"
+description = ""
+authors = ["Julian3103-byte <Julian.Maurer@rub.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+notebook = "^7.3.2"
+numpy = "2.0"
+tensorflow = "^2.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

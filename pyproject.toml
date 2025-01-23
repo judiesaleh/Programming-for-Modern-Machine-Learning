@@ -10,6 +10,7 @@ python = "^3.12"
 notebook = "^7.3.2"
 numpy = "2.0"
 tensorflow = "^2.18.0"
+pytesseract = "^0.3.13"
 
 
 [build-system]

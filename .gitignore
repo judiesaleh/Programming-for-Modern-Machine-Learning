@@ -25,6 +25,7 @@ build/
 dataset/**/*.png
 dataset/**/*.jpg
 dataset/**/*.jpeg
+dataset/**/**/*.jpg
 
 # Ignore image files
 /extracted_images

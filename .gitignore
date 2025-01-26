@@ -1,1 +1,30 @@
-/venv/
+# Virtual environments
+venv/
+env/
+.env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution/packaging
+dist/
+build/
+*.egg-info/
+
+# Ignore .ipynb_checkpoints from version control
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Ignore .idea folder from version control
+.idea/
+*/.idea/*
+
+# Ignore Datasets
+*/dataset/**/*
+*/CCPD2020/*
+*/CCPD2019/*
+
+# Ignore image files
+/extracted_images

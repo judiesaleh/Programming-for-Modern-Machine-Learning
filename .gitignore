@@ -21,10 +21,10 @@ build/
 .idea/
 */.idea/*
 
-# Ignore Datasets
-*/dataset/**/*
-*/CCPD2020/*
-*/CCPD2019/*
+# Ignore Dataset Image Files
+dataset/**/*.png
+dataset/**/*.jpg
+dataset/**/*.jpeg
 
 # Ignore image files
 /extracted_images

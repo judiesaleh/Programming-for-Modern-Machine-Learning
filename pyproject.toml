@@ -1,17 +1,25 @@
 [tool.poetry]
 name = "programming-for-modern-machine-learning"
 version = "0.1.0"
-description = ""
-authors = ["Julian3103-byte <Julian.Maurer@rub.de>"]
+description = "License plate detection and recognition using traditional CV and deep learning approaches"
+authors = [
+    "Julian3103-byte (Julian Maurer) <Julian.Maurer@rub.de>",
+    "jananiggemann (Jana Niggemann) <jana.niggemann@outlook.de>",
+    "judiesaleh (Judie Saleh) <judie.saleh@edu.ruhr-uni-bochum.de>"
+]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
 notebook = "^7.3.2"
-numpy = "2.0"
-tensorflow = "^2.18.0"
+numpy = "^2.0"
+tensorflow = "^2.15.0"
 pytesseract = "^0.3.13"
-
+opencv-python = "^4.9.0"
+scikit-learn = "^1.4.0"
+pandas = "^2.2.0"
+matplotlib = "^3.8.0"
+pillow = "^10.2.0"
 
 [build-system]
 requires = ["poetry-core"]

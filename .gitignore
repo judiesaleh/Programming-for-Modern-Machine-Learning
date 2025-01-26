@@ -22,10 +22,15 @@ build/
 */.idea/*
 
 # Ignore Dataset Image Files
-dataset/**/*.png
-dataset/**/*.jpg
-dataset/**/*.jpeg
-dataset/**/**/*.jpg
+# dataset/**/*.jpg
+# dataset/**/*.png
+# dataset/**/*.jpeg
+# dataset/**/**/*.jpg
+
+# Ignore CCPD2019 Dataset Image Files
+dataset/CCPD2019/train/images
+dataset/CCPD2019/test/images
+dataset/CCPD2019/val/images
 
 # Ignore image files
 /extracted_images

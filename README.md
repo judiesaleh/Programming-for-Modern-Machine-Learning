@@ -1,7 +1,15 @@
 # Computer Vision - License Plate Recognition
 
 
+## Dataset: Chinese City Parking Dataset (CCPD)
+
+The full dataset is availabe on https://github.com/detectRecog/CCPD.
+
+
 ## Git LFS
+
+Git Large File Storage (LFS) replaces large files with text pointers inside Git, while storing the file contents on a remote server. This is useful for versioning large files, especially binary files like images and datasets.
+
 
 ### Setup
 

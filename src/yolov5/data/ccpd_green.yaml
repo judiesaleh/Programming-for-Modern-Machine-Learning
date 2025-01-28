@@ -1,0 +1,8 @@
+# Pfade (RELATIV zum yolov5-Verzeichnis)
+train: ../datasets/ccpd_green/train/images/
+val: ../datasets/ccpd_green/val/images/
+test: ../datasets/ccpd_green/test/images/
+
+# Klassen
+nc: 1
+names: ['license_plate']

@@ -29,7 +29,6 @@ data/images/*
 !data/images/bus.jpg
 !data/*.sh
 
-results*.csv
 
 # Datasets -------------------------------------------------------------------------------------------------------------
 coco/
@@ -42,8 +41,6 @@ VOC/
 !targets*.mat
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
-*.weights
-*.pt
 *.pb
 *.onnx
 *.engine
@@ -52,7 +49,6 @@ VOC/
 *.torchscript
 *.tflite
 *.h5
-*_saved_model/
 *_web_model/
 *_openvino_model/
 *_paddle_model/

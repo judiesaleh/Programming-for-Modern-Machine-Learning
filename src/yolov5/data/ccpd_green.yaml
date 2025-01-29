@@ -1,7 +1,7 @@
 # Pfade (RELATIV zum yolov5-Verzeichnis)
-train: ../datasets/ccpd_green/train/images/
-val: ../datasets/ccpd_green/val/images/
-test: ../datasets/ccpd_green/test/images/
+train: ../../../dataset/CCPD2020/ccpd_green/train/images/
+val: ../../../dataset/CCPD2020/ccpd_green/val/images/
+test: ../../../dataset/CCPD2020/ccpd_green/test/images/
 
 # Klassen
 nc: 1

@@ -32,5 +32,9 @@ dataset/CCPD2019/train/images
 dataset/CCPD2019/test/images
 dataset/CCPD2019/val/images
 
+dataset/CCPD2020/ccpd_green/train/images
+dataset/CCPD2020/ccpd_green/test/images
+dataset/CCPD2020/ccpd_green/val/images
+
 # Ignore image files
 /extracted_images

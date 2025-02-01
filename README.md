@@ -11,12 +11,14 @@ This project is a part of the course "Programming for Modern Machine Learning" a
 - `models/`: Contains the trained models.
 - `src/`: Contains additional source code.
 
+
 ### Dataset: Chinese City Parking Dataset (CCPD)
 
 The full dataset is availabe on https://github.com/detectRecog/CCPD.
-![03218151341-93_83-202&503_542&608-533&618_190&593_191&497_534&522-0_0_27_0_29_28_27-114-122.jpg](dataset/CCPD2019/test/images/03218151341-93_83-202&503_542&608-533&618_190&593_191&497_534&522-0_0_27_0_29_28_27-114-122.jpg)
+
 
 The dataset consists of over 250.000 labeled images of chinese license plates. The license plates have white 7 characters on a blue background.
+![04468151341-90_84-159 441_570 582-575 571_155 575_149 458_569 454-0_2_8_32_24_33_8-81-234](https://github.com/user-attachments/assets/f040e080-6377-4a36-afa3-6c437028fe6d)
 
 The labels are stored in the `dataset/.../train/file_names.txt` file bzw. `dataset/.../train/labels.csv` file.
 
@@ -58,6 +60,7 @@ The filename consists of the license plate number, which is used for training. T
 
 
 The preprocessed dataset is used for the training of the models. For that is was splitted into training, validation and testing. And new csv files were created for each partition, which contains the filename, the area ratio, the tilt degree, the bounding box coordinates, the four vertices locations, the license plate number, the brightness and the blurriness and a `file_names.txt` file, which contains the filenames of the images in the partition. But the area ratio, bounding box coordinates, four vertices locations are not correct anymore.
+![03719348659-90_89-156 465_539 578-541 574_173 573_177 452_545 453-0_0_27_19_30_24_29-129-115](https://github.com/user-attachments/assets/784ecb88-bdf8-4f42-acc1-8d85f3eefb3f)
 
 
 ## Additional Information

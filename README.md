@@ -36,11 +36,13 @@ The filenames have the following format:
 This notebook contains the data exploration of the dataset. The dataset is presorted by the labels.
 We use 2 different partititions of the 250.000 image dataset:
 
-  #### 1. We take the first 50.000 images with the highest area ratio, meaning the license plates take up the most space in the image. Then we apply 3 additional thresholds to sort out more images. We apply a max. `tilt_degree_deviation = 10`, `brightness_threshold = 70`, `blurriness_threshold = 100`. This way we assue that the image quality of the dataset is good.
+#### 1. 'Small' dataset with 9.050 images
+  We take the first 50.000 images with the highest area ratio, meaning the license plates take up the most space in the image. Then we apply 3 additional thresholds to sort out more images. We apply a max. `tilt_degree_deviation = 10`, `brightness_threshold = 70`, `blurriness_threshold = 100`. This way we assue that the image quality of the dataset is good.
 
    - about 9.050 images in total ( 7.250 for training, 900 for validation, 900 for testing)
 
-  #### 2. We take the first 100.000 images with the highest area ratio. Then we apply 3 additional thresholds to sort out more images. We apply a max. `tilt_degree_deviation = 10`, `brightness_threshold = 50`, `blurriness_threshold = 50`. This way we assue that the image quality of the dataset is still good, but we have a larger dataset.
+  #### 2. 'Big' dataset 37.000 images
+  We take the first 100.000 images with the highest area ratio. Then we apply 3 additional thresholds to sort out more images. We apply a max. `tilt_degree_deviation = 10`, `brightness_threshold = 50`, `blurriness_threshold = 50`. This way we assue that the image quality of the dataset is still good, but we have a larger dataset.
 
    - about 37.000 images in total ( 29.600 for training, 3.700 for validation, 3.700 for testing)
 

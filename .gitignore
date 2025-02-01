@@ -29,3 +29,8 @@ dataset/**/*.jpg
 
 # Ignore models
 models/**/*
+
+
+src/**/*
+
+notebooks/other approaches/**/*
